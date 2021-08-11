@@ -1,0 +1,125 @@
+@media screen and (min-width: 721px) and (max-width: 1080px){
+    main.contenido-principal-curso, 
+    aside.contenido-secundario-curso {
+        float: none;
+        width: 95%;
+        margin: 0 auto;
+    }
+    section.cuenta-bancaria {
+        position: static;
+        float: none;
+        width: 80%;
+        margin: 0 auto 0 auto;
+    }
+    section#tabs {
+        width: auto;
+        margin: 4vh auto 0 auto;
+    }
+    section#tabs article#tabs-2 iframe {
+        /*width: 100%;*/
+        margin: 4vh auto 0 auto;
+    }
+
+    main.grid {
+        width: 700px;
+    }
+    .grid-item {
+        width: 320px;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 720px){
+    main.contenido-principal-curso, 
+    aside.contenido-secundario-curso {
+        float: none;
+        width: 95%;
+        margin: 0 auto;
+    }
+    section.cuenta-bancaria {
+        position: static;
+        float: none;
+        width: 95%;
+        margin: 0 auto 0 auto;
+    }
+    section#tabs {
+        width: auto;
+        margin: 4vh auto 0 auto;
+    }
+    section#tabs article#tabs-2 iframe {
+        /*width: 100%;*/
+        margin: 4vh auto 0 auto;
+    }
+
+    main.grid {
+        width: 460px;
+    }
+    .grid-item {
+        width: 200px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 480px){
+    nav.navegacion {
+        height: auto;
+    }
+    ul.lista-navegacion {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+    ul.lista-navegacion li {
+        display: block;
+        width: 95vw;
+        height: 15vh;
+    }
+    ul.lista-navegacion button.toggle-menu {
+        position: absolute;
+        right: 0;
+    }
+    ul.lista-navegacion li.home-item {
+        position: relative;
+    }
+    ul.lista-navegacion li.cursos-item {
+        position: relative;
+        left: 0;
+    }
+    ul.lista-navegacion li.profes-item {
+        position: relative;
+    }
+    ul.lista-navegacion li a {
+        width: 90vw;
+    }    
+    main.grid {
+        width: 310px;
+    }
+    .grid-item {
+        width: 296px;
+    }    
+    footer.mi-footer {
+        font-size: .8em;
+    }
+    main.contenido-principal-curso, 
+    aside.contenido-secundario-curso {
+        float: none;
+        width: 95%;
+        margin: 0 auto;
+    }
+    section.cuenta-bancaria {
+        position: static;
+        float: none;
+        width: 95%;
+        margin: 0 auto 0 auto;
+    }
+    section#tabs {
+        width: auto;
+        margin: 4vh auto 0 auto;
+    }
+    section#tabs article#tabs-2 iframe {
+        /*width: 100%;*/
+        margin: 4vh auto 0 auto;
+    }
+    .sintaxis-hyperlink, .poo-hyperlink, .interfaz-grafica-hyperlink, .jdbc-hyperlink, .jpa-hyperlink {
+        max-width: 99%;
+    }
+}

@@ -1,0 +1,6 @@
+@font-face{ 
+	font-family: 'worksans';
+	src: url('../font/worksans-light-webfont.woff');
+	src: url('../font/WorkSans-Light.otf') format('otf'),
+	     url('../font/worksans-light-webfont.woff2') format('woff2');
+}

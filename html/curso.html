@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso - Java Full Stack</title>
+    <link rel="stylesheet" href="../library/jquery-ui-1.12.1/jquery-ui.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/mediaqueries.css">
+</head>
+<body>
+    <header class="mi-header">
+        <a href="mailto:sergigarcia1992@gmail.com" title="Si necesitas ayuda, envíame un correo"><span class="fa fa-envelope"></span>sergigarcia1992@gmail.com</a>
+    </header>
+    <nav class="navegacion">
+        <ul class="lista-navegacion">
+            <li class="always-show"><button class="toggle-menu" onclick="toggleMenu();"><span class="fa"></span><span class="val">Menu</span></button></li><!--
+            --><li class="home-item items-cambiantes"><a href="#" title="Ir a la página principal">Inicio</a></li><!--
+            --><li class="cursos-item items-cambiantes"><a href="lista-cursos.html" title="Ir a la página de cursos presenciales">Cursos</a></li><!--
+            --><li class="profes-item items-cambiantes"><a href="#" title="Ir a la página de profesores">Profesores</a></li>
+        </ul>
+    </nav>
+    <nav class="breadcrumb-nav">
+        <ul class="breadcrumb-list dentro-de-cursos">
+            <li class="breadcrumb-item"><a href="lista-cursos.html" title="Ir a la página de cursos presenciales">CURSOS</a></li>
+            <li class="breadcrumb-item arrow">JAVA FULL STACK</li>
+        </ul>
+    </nav>
+    <main class="contenido-principal-curso">
+        <h1>Java Full Stack</h1>
+        <section class="info-basica-curso">
+            <article class="profesor-curso">
+                <img src="../img/neonbrand-gYf49RB7bvE-unsplash-escalado.jpg" alt="Profesor del curso de Java">
+                <p>Docente: Sergio García</p>
+            </article>
+            <article class="fecha-inicio">
+                <p>Inicio: 10 Marzo</p>
+            </article>
+            <article class="precio">
+                <p>Precio: 50 €</p>
+            </article>
+        </section>
+        <section class="video-promocional">
+            <video controls>
+                <source src="../video/Pexels-Videos-1395943.mp4" type="video/mp4">
+                <source src="../video/Pexels-Videos-1395943.ogv" type="video/ogg">
+                <source src="../video/Pexels-Videos-1395943.webm" type="video/webm">
+                <object data="../video/Pexels-Videos-1395943.swf"
+                type="application/x-shockwave-flash"></object>
+                    Actualice su navegador, por favor.
+            </video>
+        </section>
+        <section class="caracteristicas">
+            <h2>Características</h2>
+            <ul class="lista-caracteristicas">
+                <li>
+                    <ul class="lista-en-lista">
+                        <li>8 semanas</li>
+                        <li>40 horas</li>
+                        <li>Máx. 20 estudiantes</li>
+                    </ul>
+                </li>
+                <li>Curso sin necesidad de conocimientos previos</li>
+                <li>Entrega de certificado de finalización del curso</li>
+            </ul>
+        </section>
+    </main>
+    <section class="cuenta-bancaria">
+        <h2>Titular: Sergio García</h2>
+        <h3>IBAN: ES6621000418401234567891</h3>
+        <h4>Cuenta: 1234567891</h4>
+    </section>
+    <aside class="contenido-secundario-curso">
+        <section id="tabs">
+            <ul>
+              <li><a href="#tabs-1">Descripción</a></li>
+              <li><a href="#tabs-2">Horario</a></li>
+              <li><a href="#tabs-3">Temario</a></li>
+              <li><a href="#tabs-4">Docente</a></li>
+            </ul>
+            <article id="tabs-1">
+              <p>
+                  En este curso desarrollarás las habilidades necesarias para convertirte en un desarrollador Full Stack de Java.
+                  Por lo tanto aprenderás las siguientes lecciones:
+              </p>
+              <ul class="aprenderas">
+                  <li>Java Orientado a Objetos</li>
+                  <li>Interfaces gráficas con Java</li>
+                  <li>Java y la persistencia de datos</li>
+              </ul>
+            </article>
+            <article id="tabs-2">
+              <p>
+                  <strong>INICIO</strong>: 10 Marzo
+              </p>
+              <p>
+                  De lunes a viernes - de 9.00h a 19.00h
+              </p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.2789602238227!2d2.125481015425176!3d41.368023579266065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a498930bb23acd%3A0x6ce825e8b316b14e!2sCarrer%20de%20Santiago%20Ramon%20y%20Cajal%2C%2029%2C%2008902%20L&#39;Hospitalet%20de%20Llobregat%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1582543590552!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+            </article>
+            <article id="tabs-3">
+                <section class="temario-curso">
+                    <h2 class="sintaxis-hyperlink"><span class="fa fa-plus"></span>Sintaxis</h2>
+                    <nav class="sintaxis">
+                        <ul class="sintaxis-list">
+                            <li>Variables</li>
+                            <li>Bucles while y do while</li>
+                            <li>Bucles for</li>
+                            <li>Modificadores de acceso: public y private</li>
+                        </ul>
+                    </nav>
+                    <h2 class="poo-hyperlink"><span class="fa fa-plus"></span>Programación orientada a objetos</h2>
+                    <nav class="poo">
+                        <ul class="poo-list">
+                            <li>Clases</li>
+                            <li>Constructor</li>
+                            <li>Setters & Getters</li>
+                            <li>Polimorfismo y herencia</li>
+                            <li>Interfaces</li>
+                        </ul>
+                    </nav>
+                    <h2 class="interfaz-grafica-hyperlink"><span class="fa fa-plus"></span>Interfaces gráficas</h2>
+                    <nav class="interfaz-grafica">
+                        <ul class="interfaz-grafica-list">
+                            <li>Fundamentos de Swing</li>
+                            <li>Realización de programa: conversor de px a em</li>
+                            <li>Realización de programa: conversor archivos binarios</li>
+                        </ul>
+                    </nav>
+                    <h2 class="jdbc-hyperlink"><span class="fa fa-plus"></span>JDBC</h2>
+                    <nav class="jdbc">
+                        <ul class="jdbc-list">
+                            <li>Realización de aplicación de productos y sus categorías</li>
+                        </ul>
+                    </nav>
+                    <h2 class="jpa-hyperlink"><span class="fa fa-plus"></span>JPA</h2>
+                    <nav class="jpa">
+                        <ul class="jpa-list">
+                            <li>Realización de aplicación de empleados y sus salarios, puestos, etc.</li>
+                        </ul>
+                    </nav>
+                </section>
+            </article>
+            <article id="tabs-4">
+                <img src="../img/neonbrand-gYf49RB7bvE-unsplash-escalado.jpg" alt="Profesor del curso de Java">
+                <section>
+                    <p>Docente:<br>Sergio García</p>
+                    <p>Edad:<br>27 años</p>
+                </section>
+            </article>
+        </section>
+    </aside>
+    <footer class="mi-footer">
+        <nav class="navegacion-footer-primero">
+            <h2>Contáctanos</h2>
+            <ul class="contactanos">
+                <li>+34 123456789</li>
+                <li>sergigarcia1992@gmail.com</li>
+                <li>Calle Ramón y Cajal 29, Hospitalet de Llobregat, Catalunya</li>
+            </ul>
+        </nav>
+        <nav class="navegacion-footer-segundo">
+            <h2>Acceso rápido</h2>
+            <ul class="acceso-rapido">
+                <li><a href="#" title="Ir a la página principal">Inicio</a></li>
+                <li><a href="lista-cursos.html" title="Ir a la página de cursos presenciales">Cursos</a></li>
+                <li><a href="#" title="Ir a la página de profesores">Profesores</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../library/jquery-ui-1.12.1/jquery-ui.js"></script>
+    <script src="../js/enquire.min.js"></script>
+    <script src="../js/enquire-script.js"></script>
+    <script src="../js/toggleMenu.js"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=sb"></script>
+    <script>paypal.Buttons().render('.cuenta-bancaria');</script>
+    <script src="../js/jquery-script.js"></script>
+</body>
+</html>

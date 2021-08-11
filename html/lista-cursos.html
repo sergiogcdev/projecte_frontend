@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de cursos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/mediaqueries.css">
+</head>
+<body>
+    <header class="mi-header">
+        <a href="mailto:sergigarcia1992@gmail.com" title="Si necesitas ayuda, envíame un correo"><span class="fa fa-envelope"></span>sergigarcia1992@gmail.com</a>
+    </header>
+    <nav class="navegacion">
+        <ul class="lista-navegacion">
+            <li class="always-show"><button class="toggle-menu" onclick="toggleMenu();"><span class="fa"></span><span class="val">Menu</span></button></li><!--
+            --><li class="home-item items-cambiantes"><a href="#" title="Ir a la página principal">Inicio</a></li><!--
+            --><li class="cursos-item items-cambiantes"><a href="lista-cursos.html" title="Ir a la página de cursos presenciales">Cursos</a></li><!--
+            --><li class="profes-item items-cambiantes"><a href="#" title="Ir a la página de profesores">Profesores</a></li>
+        </ul>
+    </nav>
+    <nav class="breadcrumb-nav">
+        <ul class="breadcrumb-list">
+            <li class="breadcrumb-item">CURSOS</li>
+        </ul>
+    </nav>
+    <section class="button-group filters-button-group">
+        <button class="button is-checked" data-filter="*">Todos</button><!--
+        --><button class="button" data-filter=".command-applications">Command Applications</button><!--
+        --><button class="button" data-filter=".free-software">Free Software</button><!--
+        --><button class="button" data-filter=".front-end">Front-end</button><!--
+        --><button class="button" data-filter=".full-stack">Full Stack</button><!--
+        --><button class="button" data-filter=".gnu">GNU</button><!--
+        --><button class="button" data-filter=".interfaces">Interfaces</button><!--
+        --><button class="button" data-filter=".java">Java</button><!--
+        --><button class="button" data-filter=".multiplataforma">Multiplataforma</button><!--
+        --><button class="button" data-filter=".sysadmin">Sysadmin</button><!--
+        --><button class="button" data-filter=".web-development">Web Development</button><!--
+    --><button class="button" data-filter=".windows">Windows</button>
+    </section>
+    <main class="grid">
+        <article class="grid-item java full-stack multiplataforma">
+            <img src="../img/cayley-nossiter-LO3IuL-wgME-unsplash.jpg" alt="Foto de una mujer programando">
+            <h2><a href="curso.html" class="enlace-curso">Java Full Stack</a></h2>
+            <p>
+                #java #full-stack
+                #multiplataforma
+            </p>
+            <h3>Precio: 50€</h3>
+        </article>
+        <article class="grid-item front-end web-development multiplataforma">
+            <img src="../img/christine-donaldson-y-6W1qsSejI-unsplash.jpg" alt="Foto de ordenador para escribir código">
+            <h2><a href="#" class="enlace-curso">HTML & CSS</a></h2>
+            <p>
+                #front-end #web-development #multiplataforma
+            </p>
+            <h3>Precio: 30€</h3>
+        </article>
+        <article class="grid-item windows interfaces">
+            <img src="../img/ben-kolde-FaPxZ88yZrw-unsplash.jpg" alt="Foto de ordenador para programar">
+            <h2><a href="#" class="enlace-curso">C#</a></h2>
+            <p>
+                #windows #interfaces
+            </p>
+            <h3>Precio: 60€</h3>
+        </article>
+        <article class="grid-item free-software opensource sysadmin gnu">
+            <img src="../img/unsplash-NuFUbftUu_s-unsplash.jpg" alt="Foto de ordenador con GNU/Linux">
+            <h2><a href="#" class="enlace-curso">Administración Linux</a></h2>
+            <p>
+                #free-software #sysadmin #gnu
+            </p>
+            <h3>Precio: 30€</h3>
+        </article>
+        <article class="grid-item interfaces command-applications multiplataforma">
+            <img src="../img/chris-ried-ieic5Tq8YMk-unsplash.jpg" alt="Foto con código escrito en Python">
+            <h2><a href="#" class="enlace-curso">Python</a></h2>
+            <p>
+                #interfaces #command-applications #multiplataforma
+            </p>
+            <h3>Precio: 50€</h3>
+        </article>
+    </main>
+
+    <footer class="mi-footer">
+        <nav class="navegacion-footer-primero">
+            <h2>Contáctanos</h2>
+            <ul class="contactanos">
+                <li>+34 123456789</li>
+                <li>sergigarcia1992@gmail.com</li>
+                <li>Calle Ramón y Cajal 29, Hospitalet de Llobregat, Catalunya</li>
+            </ul>
+        </nav>
+        <nav class="navegacion-footer-segundo">
+            <h2>Acceso rápido</h2>
+            <ul class="acceso-rapido">
+                <li><a href="#" title="Ir a la página principal">Inicio</a></li>
+                <li><a href="#" title="Ir a la página de cursos presenciales">Cursos</a></li>
+                <li><a href="#" title="Ir a la página de profesores">Profesores</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/isotope.pkgd.min.js"></script>
+    <script src="../js/imagesloaded.pkgd.min.js"></script>
+    <script src="../js/masonry.pkgd.min.js"></script>
+    <script src="../js/enquire.min.js"></script>
+    <script src="../js/isotope-script.js"></script>
+    <script src="../js/masonry-jquery.js"></script>
+    <script src="../js/enquire-script.js"></script>
+    <script src="../js/toggleMenu.js"></script>
+</body>
+</html>

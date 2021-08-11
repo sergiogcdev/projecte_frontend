@@ -1,0 +1,400 @@
+body {
+    font-family: 'worksans', sans-serif;
+}
+
+/* curso.html */
+
+header.mi-header {
+    width: 100%;
+    height: 16vh;
+    background: #1e2022;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header.mi-header a {
+    font-size: 1em;
+    margin: 0 0 0 5%;
+    text-decoration: none;
+    color: #878889;
+    /*font-weight: bold;*/
+    /*align-self: center;*/
+}
+
+nav.navegacion {
+    width: 100%;
+    height: 15vh;
+}
+
+ul.lista-navegacion {
+    list-style-type: none;
+    position: relative;
+    width: inherit;
+    height: inherit;
+}
+
+ul.lista-navegacion button.toggle-menu {
+	background-color:#44c767;
+    border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+    padding: 10px 14px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    display: none;
+    position: absolute;
+    left: 5%;
+}
+ul.lista-navegacion button.toggle-menu:hover {
+	background-color:#5cbf2a;
+}
+
+ul.lista-navegacion button.toggle-menu span {
+    font-size: 2em;
+}
+
+.val {
+    display: none;
+}
+
+ul.lista-navegacion li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 2.5vh 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 23%;
+    text-align: center;
+}
+
+ul.lista-navegacion li.home-item {
+    position: absolute;
+    left: 0;
+}
+ul.lista-navegacion li.cursos-item {
+    position: absolute;
+    right: 25%;
+}
+ul.lista-navegacion li.profes-item {
+    position: absolute;
+    right: 0;
+}
+
+ul.lista-navegacion li a {
+    display: block;
+    width: 80%;
+    text-decoration: none;
+    color: #616161;
+    padding: 2.5vh 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+ul.lista-navegacion li a:hover {
+    color: #000;
+    border-bottom: 1px solid #878889;
+}
+
+main.contenido-principal-curso {
+    position: relative;
+    top: 0;
+}
+
+main.contenido-principal-curso h1 {
+    text-align: center;
+    margin: 0 0 4vh 0;
+}
+
+section.info-basica-curso {
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+section.info-basica-curso article {
+    height: 13vh;
+}
+
+section.info-basica-curso article.profesor-curso {
+    margin: 1.75vh 0 0 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+section.info-basica-curso article.profesor-curso p {
+    margin: 1.75vh 0 0 5%;
+}
+
+section.info-basica-curso article img {
+    height: 9vh;
+    border-radius: 50%;
+    /*margin: 1.75vh 0 0 0;*/
+}
+
+section.info-basica-curso article.fecha-inicio, 
+section.info-basica-curso article.precio {
+    margin: 3.5vh 0 0 5%;
+}
+
+section.video-promocional video {
+    display: block;
+    margin: 0 auto;
+    width: 82%;
+}
+
+section.caracteristicas {
+    width: 82%;
+    margin: 9vh auto;
+    box-shadow: 0 0 10px #878889;
+    padding: 2.5vh 2.5%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    line-height: 36px;
+}
+
+section.caracteristicas h2 {
+    text-align: center;
+}
+
+section.caracteristicas ul.lista-caracteristicas {
+    margin: 4vh 0 0 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+section.caracteristicas ul.lista-en-lista {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+aside.contenido-secundario-curso {
+    margin: 0 0 9vh 0;
+}
+
+section#tabs ul.aprenderas {
+    margin: 0 0 0 4%;
+}
+
+section#tabs article#tabs-2 iframe {
+    width: 100%;
+    margin: 4.5vh 0 0 0;
+}
+
+section#tabs article#tabs-4 {
+    margin: 1.75vh 0 0 5%;
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+}
+
+section#tabs article#tabs-4 section {
+    align-self: center;
+    margin: 0 0 0 4%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 30px;
+}
+
+
+section#tabs article#tabs-4 img {
+    height: 18vh;
+    border-radius: 50%;
+}
+
+.sintaxis, .poo, .interfaz-grafica, .jdbc, .jpa {
+    display: none;
+}
+
+.sintaxis-hyperlink, .poo-hyperlink, .interfaz-grafica-hyperlink, .jdbc-hyperlink, .jpa-hyperlink {
+    cursor: pointer;
+    max-width: 50%;
+    background: #e9e9e9;
+    margin: 2.5vh 0;
+}
+
+.sintaxis-list, .poo-list, .interfaz-grafica-list, .jdbc-list, .jpa-list {
+    list-style-type: none;
+}
+
+main.contenido-principal-curso, 
+aside.contenido-secundario-curso {
+    float: left;
+    width: 70%;
+}
+
+section.cuenta-bancaria {
+    position: sticky;
+    top: 12vh;
+    float: right;
+    width: 27%;
+    margin: 0 2% 0 0;
+    line-height: 50px;
+    /*height: 100vh;*/
+    box-shadow: 0 0 2px #878889;
+    padding: 0 2.5%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer.mi-footer {
+    clear: both;
+    width: 100%;
+    height: 23vh;
+    background: #000;
+    color: #878889;
+    /* flex */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    /* position */
+    position: relative;
+    /* Mínimo para que el footer quede abajo. 
+    Probado con un main article (de lista-cursos.html) vacío. */
+    top: 34vh;
+}
+
+nav.navegacion-footer-primero, nav.navegacion-footer-segundo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    hyphens: auto;
+}
+
+ul.contactanos, ul.acceso-rapido {
+    list-style-type: none;
+}
+
+ul.acceso-rapido li a {
+    text-decoration: none;
+    color: #878889;
+}
+
+.fa {
+    margin-right: 1%;
+}
+
+/* lista-cursos.html */
+
+main.grid {
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.grid-item img {
+    width: 100%;
+}
+
+.grid-item a:hover {
+    cursor: pointer;
+    color: #02cc26;
+}
+
+.grid-item {
+    width: 225px;
+    margin: 2vh 2%;
+    box-shadow: 0 0 5px #878889;
+    padding: 2vh 2%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.enlace-curso {
+    text-decoration: none;
+    color: #000;
+}
+
+main.lista-cursos-principal {
+    margin: 0 0 9vh 0;
+}
+
+.button-group {
+    width: 70%;
+    margin: 0 auto;
+}
+
+button.is-checked {
+    color: #fff;
+    background: #0078d7;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5em 1.0em;
+    background: #EEE;
+    border: none;
+    border-radius: 5px;
+    color: #222;
+    font-family: 'worksans', sans-serif;
+    font-size: 16px;
+    text-shadow: 0 1px white;
+    cursor: pointer;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0 1% 1vh 0;
+}
+  
+.button:hover {
+    background-color: #8CF;
+    color: #fff;
+    text-shadow: #28F 1px 1px;
+}
+
+.button:active,
+.button.is-checked {
+    background-color: #28F;
+}
+
+/* breadcrumb */
+ul.breadcrumb-list {
+    list-style-type: none;
+    width: 70%;
+    margin: 4vh auto 4vh auto;
+    color: #000;
+}
+
+ul.dentro-de-cursos {
+    width: 84.5%;
+}
+
+li.breadcrumb-item {
+    display: inline-block;
+    vertical-align: top;
+}
+
+ul.breadcrumb-list li.arrow::before {
+    content: url('../img/arrow.png');
+}
+
+li.breadcrumb-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*email icon*/
+.fa-envelope {
+    display: inline;
+}
